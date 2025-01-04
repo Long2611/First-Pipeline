@@ -1,0 +1,10 @@
+name: Test Branch
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  tests:
+    runs-on: ubunty
